@@ -1,0 +1,32 @@
+.main_info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom right, rgba(31.5, 31.5, 94.5, 1), rgba(31.5, 31.5, 94.5, 0.84));
+}
+
+.cast {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:  #FFF;
+}
+
+.trailer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #DCE3E6;
+}
+
+.film_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgba(31.5, 31.5, 94.5, 1), rgba(31.5, 31.5, 94.5, 0.84));
+}
+
+.film_error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+

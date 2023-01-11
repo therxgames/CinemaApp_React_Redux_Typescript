@@ -1,0 +1,32 @@
+
+.main {
+    width: 100%;
+    margin: 0 20px;
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    z-index: 999;
+    top: 45px;
+    width: 100%;
+    height: 300px;
+    background: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+       
+    &::-webkit-scrollbar-thumb {
+        background-color: #000;
+        outline: 1px solid slategrey;
+    }
+}

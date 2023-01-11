@@ -1,0 +1,29 @@
+.trailer_item {
+    width: 100%;
+    height: 700px;
+    display: none;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.trailer_itemactive {
+    display: block;
+}
+
+.title {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.trailer_empty {
+    display: flex;
+    justify-content: center;
+}

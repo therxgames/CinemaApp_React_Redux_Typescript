@@ -1,0 +1,16 @@
+.swiper-slide-active {
+  margin-left: 5px;
+}
+
+.swiper-scrollbar {
+  margin-top: 20px;
+
+    .swiper-horizontal > & {
+      left: 0;
+    }
+
+    .swiper-scrollbar-drag {
+      background: #000;
+    }
+}
+  
